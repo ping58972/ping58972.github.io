@@ -6,7 +6,7 @@
         "type": "git",
         "url": ""
     },
-    "homepage": "ping58972.com",
+    "homepage": "ping58972.github.io",
     "main": "gulpfile.js",
     "scripts": {
         "start": "gulp serve --watch",
