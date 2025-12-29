@@ -1,20 +1,20 @@
 <section class="section other-projects">
-  <div class="section__title">Data-Analysis Machine-Learning Deep-Learning</div>
+  <div class="section__title">Machine-Learning Deep-Learning</div>
   <div class="section__content">
     {% for project in site.data.mldl-projects %}
     <div class="project">
       <div class="project__name">
-      {% if project.server_code != empty %}
-      <a href="{{project.server_code}}" target="_blank" class="server-github-link ">{{project.name}}</a>
-      {%else%}
-      <a href="" target="_blank" class="">{{project.name}}</a>
-      {% endif %}
-      {% if project.client_code != empty %}
+        {% if project.server_code != empty %}
+        <a href="{{project.server_code}}" target="_blank" class="server-github-link ">{{project.name}}</a>
+        {%else%}
+        <a href="" target="_blank" class="">{{project.name}}</a>
+        {% endif %}
+        {% if project.client_code != empty %}
         <a href="{{project.client_code}}" target="_blank" class="client-github-link"></a>
-      {% endif %}
-      {% if project.url != empty %}
+        {% endif %}
+        {% if project.url != empty %}
         <a href="{{project.url}}" target="_blank" class="arrow-link"></a>
-      {% endif %}
+        {% endif %}
       </div>
       <p>{{project.description}}</p>
       <div class="project__used">
@@ -26,4 +26,3 @@
     {% endfor %}
   </div>
 </section>
-

@@ -1,10 +1,22 @@
+- name: Small Language Model
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/SmallLanguageModel
+  description: This project trains a series of next-token language models, starting from a linear predictor through multilayer perceptrons, self-attention, and small transformers. Character-level experiments use Tiny Shakespeare, while word-level experiments adapt the same transformer backbone to WikiText-2 and Penn Treebank (PTB). Hyperparameter sweeps compare context length, embedding size, depth/width, attention heads, optimizers, schedulers, and batch sizes, with results logged to report_src/ alongside plots and generated text samples.
+  used:
+    - thing: Multi-layer transformer
+    - thing: Penn Treebank word-level
+    - thing: WikiText-2 word-level
+    - thing: Tiny Shakespeare
+
 - name: Identify Cat Picture
   url: ""
   client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week2/Logistic%20Regression%20as%20a%20Neural%20Network
-  description: Dataset (data.h5) - a training set of m_train images labeled as cat (y=1) or non-cat (y=0) 
-            - a test set of m_test images labeled as cat or non-cat - each image is of shape (num_px, num_px, 3) 
-            where 3 is for the 3 channels (RGB).
+  description:
+    Dataset (data.h5) - a training set of m_train images labeled as cat (y=1) or non-cat (y=0)
+    - a test set of m_test images labeled as cat or non-cat - each image is of shape (num_px, num_px, 3)
+    where 3 is for the 3 channels (RGB).
   used:
     - thing: Python
     - thing: Logistic Regression with a Neural Network
@@ -26,9 +38,8 @@
   url: ""
   client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week1/Convolutional%20Model%20-%20application
-  description:
-    Implement helper functions by implementing a TensorFlow model
-    Implement a fully functioning ConvNet using TensorFlowBuild and train a ConvNet in TensorFlow 
+  description: Implement helper functions by implementing a TensorFlow model
+    Implement a fully functioning ConvNet using TensorFlowBuild and train a ConvNet in TensorFlow
     for a classification problem
   used:
     - thing: Python
@@ -41,8 +52,8 @@
   client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week2/ResNets
   description: Implement the basic building blocks of ResNets.
-          Put together these building blocks to implement and train
-          a state-of-the-art neural network for image classification.
+    Put together these building blocks to implement and train
+    a state-of-the-art neural network for image classification.
   used:
     - thing: Python
     - thing: Residual Networks,
@@ -53,11 +64,11 @@
   url: ""
   client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week3/Car%20detection%20with%20YOLO
-  description: About object detection using the very powerful YOLO model. 
-            Many of the ideas in this notebook are described in the two YOLO papers
-            Redmon et al., 2016 and Redmon and Farhadi, 2016.
-            Use object detection on a car detection dataset
-            Deal with bounding boxes.
+  description: About object detection using the very powerful YOLO model.
+    Many of the ideas in this notebook are described in the two YOLO papers
+    Redmon et al., 2016 and Redmon and Farhadi, 2016.
+    Use object detection on a car detection dataset
+    Deal with bounding boxes.
   used:
     - thing: Python
     - thing: YOLO model
@@ -68,10 +79,11 @@
   url: ""
   client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week3/Planar%20data%20classification%20with%20one%20hidden%20layer
-  description: Implement a 2-class classification neural network with a single hidden layer
-        Use units with a non-linear activation function, such as tanh
-        Compute the cross entropy loss
-        Implement forward and backward propagation
+  description:
+    Implement a 2-class classification neural network with a single hidden layer
+    Use units with a non-linear activation function, such as tanh
+    Compute the cross entropy loss
+    Implement forward and backward propagation
   used:
     - thing: Python
     - thing: Classification with one hidden layer
@@ -83,8 +95,8 @@
   client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week4/Face%20Recognition
   description: Implement the triplet loss function
-          Use a pretrained model to map face images into 128-dimensional encodings
-          Use these encodings to perform face verification and face recognition
+    Use a pretrained model to map face images into 128-dimensional encodings
+    Use these encodings to perform face verification and face recognition
   used:
     - thing: Python
     - thing: Face Verification
@@ -97,7 +109,7 @@
   client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week4/Neural%20Style%20Transfer
   description: Implement the neural style transfer algorithm
-                Generate novel artistic images using your algorithm
+    Generate novel artistic images using your algorithm
   used:
     - thing: Python
     - thing: Neural Style Transfer
@@ -108,9 +120,10 @@
   url: ""
   client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week4/Neural%20Style%20Transfer
-  description: Congratulations on the promotion! Let's get coffee and talk. Love you!
-                The emojifier can automatically turn this into
-                    Congratulations on the promotion! 👍 Let's get coffee and talk. ☕️ Love you! ❤️
+  description:
+    Congratulations on the promotion! Let's get coffee and talk. Love you!
+    The emojifier can automatically turn this into
+    Congratulations on the promotion! 👍 Let's get coffee and talk. ☕️ Love you! ❤️
   used:
     - thing: Python
     - thing: Sequence Models
@@ -121,9 +134,9 @@
   url: ""
   client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week4/Building%20your%20Deep%20Neural%20Network%20-%20Step%20by%20Step
-  description:  Use non-linear units like ReLU to improve your model
-          Build a deeper neural network (with more than 1 hidden layer)
-          Implement an easy-to-use neural network class
+  description: Use non-linear units like ReLU to improve your model
+    Build a deeper neural network (with more than 1 hidden layer)
+    Implement an easy-to-use neural network class
   used:
     - thing: Python
     - thing: Classification with one hidden layer
@@ -134,8 +147,8 @@
   url: ""
   client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Sequence%20Models/Week1/Jazz%20improvisation%20with%20LSTM
-  description:  Apply an LSTM to music generation.
-              Generate your own jazz music with deep learning.
+  description: Apply an LSTM to music generation.
+    Generate your own jazz music with deep learning.
   used:
     - thing: Python
     - thing: LSTM Network
@@ -146,9 +159,10 @@
   url: ""
   client_code: ""
   server_code: https://github.com/ping58972/LinearRegression_Practice
-  description: First, linear regression with one variable to predict profits for a food truck. </br>
-        Second, linear regression with multiple variables to predict the prices of houses. 
-        wanting to know what a good market price would be.  
+  description:
+    First, linear regression with one variable to predict profits for a food truck. </br>
+    Second, linear regression with multiple variables to predict the prices of houses.
+    wanting to know what a good market price would be.
   used:
     - thing: Linear Regression Algorithm
     - thing: Python
@@ -159,10 +173,11 @@
   url: ""
   client_code: ""
   server_code: https://github.com/ping58972/LogisticRegression_practice
-  description: Build a logistic regression model to predict whether a student gets admitted 
-        into a university. </br>
-        Second, Implement regularized logistic regression to predict whether microchips
-        from a fabrication plant passes quality assurance (QA).
+  description:
+    Build a logistic regression model to predict whether a student gets admitted
+    into a university. </br>
+    Second, Implement regularized logistic regression to predict whether microchips
+    from a fabrication plant passes quality assurance (QA).
   used:
     - thing: Logistic Regression Algorithm
     - thing: Python
