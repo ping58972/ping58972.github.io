@@ -1,6 +1,6 @@
 - company: BeaconFire Inc.
   url: #
-  time: May 2022 - Now
+  time: May 2022 - May 2025
   position: Full-stack Software Developer
   description1: Experience with Microservices project by using Spring frameworks to build a Restful API. Also Implement communication for each Services, Synchronous - Feign, RestTemplate. Asynchronous - RabbitMQ or Kafka.
   description2: Experience Databases with SQL - MySQL, MS SQL. NoSQL - MongoDB, DynamoDB. And using JDBC and Hibernate to interact with SQL Databases to implement Transaction that following ACID principles for Restful API project. Also practice to implement Distributed Transaction Management by SAGA pattern for Microservices.

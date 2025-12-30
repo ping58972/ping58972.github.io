@@ -1,11 +1,24 @@
+- name: Ultimate Map for Academic Strategy & Success (UMASS)
+  url: "https://cics520umass.pythonanywhere.com"
+  client_code: "https://github.com/UMASS-CICS520-ProjectGroup9/website-service"
+  server_code: https://github.com/UMASS-CICS520-ProjectGroup9/UltimateMapForAcademicStrategyAndSuccess
+  description: Ultimate Map for Academic Strategy & Success (UMASS) is a comprehensive web platform designed to help university students thrive academically and prepare for their future careers. Students may share resources, access course information, evaluate professors, collaborate with peers, and strategize their academic journey.
+  used:
+    - thing: Python
+    - thing: Django
+    - thing: JWT Authentication
+    - thing: RESTful API
+    - thing: SQLite3
+
 - name: Find Path Travel Cities Algorithm
   url: ""
   client_code: ""
   server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Algorithms%20and%20Data%20Structures-ICS%20340_01-Spring2021/publish
-  description: This is an advance algorithm project from CS course - Algorithms and Data Structures.  </br>
-              Algorithm Deliverable D - finding a good Ham cycle path by local search or Genetic Algorithm.</br>
-              Algorithm Deliverable C - From the starting city use depth first search with iterative deepening to find the nearest goal city.</br>
-              Algorithm Deliverable B - find the shortest Bitonic Tour of the cities.
+  description:
+    This is an advance algorithm project from CS course - Algorithms and Data Structures.  </br>
+    Algorithm Deliverable D - finding a good Ham cycle path by local search or Genetic Algorithm.</br>
+    Algorithm Deliverable C - From the starting city use depth first search with iterative deepening to find the nearest goal city.</br>
+    Algorithm Deliverable B - find the shortest Bitonic Tour of the cities.
   used:
     - thing: Java
     - thing: Local Search
@@ -18,20 +31,22 @@
   server_code: https://github.com/ping58972/learn-spring/tree/main/flight-search
   client_code: https://github.com/ping58972/learn-frentend/tree/main/angular-unitedairline-search-app-client
   url: ""
-  description: This Project is Full-Stack Application of Airline Search service Restful API. </br> Client side, single Web page, was implement with Angular CLI version 8.3.20. </br>
-          Server side implements by Java spring boot and connect to MySQL Database.
+  description:
+    This Project is Full-Stack Application of Airline Search service Restful API. </br> Client side, single Web page, was implement with Angular CLI version 8.3.20. </br>
+    Server side implements by Java spring boot and connect to MySQL Database.
   used:
     - thing: Java
     - thing: Spring Boot
     - thing: Restful API
-    - thing: Angular 8 
+    - thing: Angular 8
     - thing: MySQL
 
 - name: Post Message Web APP
   server_code: https://github.com/ping58972/learn-node-js/tree/main/testing-node-rest-api-mocha-chai
   client_code: https://github.com/ping58972/learn-frentend/tree/main/react-restful-api-basic-socket-io
-  description: This project is the single page that build by React and fetch all data from web server  
-              using MongoDB to save data this server API that has been deployed to Heroru and testing with Mocha&Chai
+  description:
+    This project is the single page that build by React and fetch all data from web server
+    using MongoDB to save data this server API that has been deployed to Heroru and testing with Mocha&Chai
   used:
     - thing: Node.js
     - thing: React.js
@@ -40,76 +55,80 @@
     - thing: MongoDB
     - thing: Mocha
 
-- name: Distributed and Cloud Computing Course's Assignment
-  url: ""
-  client_code: ""
-  server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Distributed_and_Cloud_Computing-ICS432_01-Fall2021/publish
-  description:  Distributed and Cloud Computing --- ICS 432 Fall 2021 Fall 2021 </br>
-                Working with Cloud Virtual Machines - AWS EC2 instance, GCP Virtual Machine.</br>
-                Load Balancing and Auto Scaling - Implementing a scalable AWS and GCP infrastructure.</br>
-                MapReduce - Analyzing Stock Data, Implementing Relational Union and Intersection.</br>
-                Docker in AWS and GCP with Python Flask.
-  used:
-    - thing: AWS
-    - thing: AWS EC2
-    - thing: AWS S3
-    - thing: AWS EFS
-    - thing: GCP 
-    - thing: GCP Compute-Egnine
-    - thing: GCP Cloud-SQL
+# - name: Distributed and Cloud Computing Course's Assignment
+#   url: ""
+#   client_code: ""
+#   server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Distributed_and_Cloud_Computing-ICS432_01-Fall2021/publish
+#   description:
+#     Distributed and Cloud Computing --- ICS 432 Fall 2021 Fall 2021 </br>
+#     Working with Cloud Virtual Machines - AWS EC2 instance, GCP Virtual Machine.</br>
+#     Load Balancing and Auto Scaling - Implementing a scalable AWS and GCP infrastructure.</br>
+#     MapReduce - Analyzing Stock Data, Implementing Relational Union and Intersection.</br>
+#     Docker in AWS and GCP with Python Flask.
+#   used:
+#     - thing: AWS
+#     - thing: AWS EC2
+#     - thing: AWS S3
+#     - thing: AWS EFS
+#     - thing: GCP
+#     - thing: GCP Compute-Egnine
+#     - thing: GCP Cloud-SQL
 
-- name: Predict Profits and Prices
-  url: ""
-  client_code: ""
-  server_code: https://github.com/ping58972/LinearRegression_Practice
-  description: First, linear regression with one variable to predict profits for a food truck. </br>
-        Second, linear regression with multiple variables to predict the prices of houses. 
-        wanting to know what a good market price would be.  
-  used:
-    - thing: Linear Regression Algorithm
-    - thing: Machine Learning
-    - thing: Python
-    - thing: Numpy
-    - thing: Jupyter
+# - name: Predict Profits and Prices
+#   url: ""
+#   client_code: ""
+#   server_code: https://github.com/ping58972/LinearRegression_Practice
+#   description:
+#     First, linear regression with one variable to predict profits for a food truck. </br>
+#     Second, linear regression with multiple variables to predict the prices of houses.
+#     wanting to know what a good market price would be.
+#   used:
+#     - thing: Linear Regression Algorithm
+#     - thing: Machine Learning
+#     - thing: Python
+#     - thing: Numpy
+#     - thing: Jupyter
 
-- name: Clinic Management
-  server_code: https://github.com/ping58972/clinic-management
-  client_code: ""
-  url: ""
-  description: Java - core Java se8.
-        JSP - java service page for dynamic web page.
-        Servlet - Used to implement web server with java.
-       JDBC - java database connectivity API for connect with MySQL.
-        Tomcat server - run server side for render web page.
-  used:
-    - thing: Java
-    - thing: JDBC
-    - thing: JSP
-    - thing: Tomcat server 
-    - thing: Servlet
+# - name: Clinic Management
+#   server_code: https://github.com/ping58972/clinic-management
+#   client_code: ""
+#   url: ""
+#   description: Java - core Java se8.
+#     JSP - java service page for dynamic web page.
+#     Servlet - Used to implement web server with java.
+#     JDBC - java database connectivity API for connect with MySQL.
+#     Tomcat server - run server side for render web page.
+#   used:
+#     - thing: Java
+#     - thing: JDBC
+#     - thing: JSP
+#     - thing: Tomcat server
+#     - thing: Servlet
 
 - name: Manager Mobile App
   server_code: ""
   client_code: https://github.com/ping58972/manager-mobile-app
   url: ""
-  description: This mobile app is for practice react native, react reduxe, and google firebase that implement 
-              by android studio, etc.
+  description:
+    This mobile app is for practice react native, react reduxe, and google firebase that implement
+    by android studio, etc.
   used:
     - thing: Google Firebase
     - thing: Redux
     - thing: React-Native
-  
+
 - name: Data Sockets with Multi-thread
   url: ""
   client_code: ""
   server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Parallel_and_Distributed_Algorithms-ICS440_01-Fall2021/publish
-  description: Parallel and Distributed Algorithms --- ICS 440-01 Fall 2021 </br> 
-               Creating multi-thread of self-running object to wait for client </br>
-               requests to be sent up then send back the appropriate response.  </br>
-               Use the writeUTF(String s) method on DataOutputStream to send a reqeust </br>
-              (or a response) over the OutputStream of the Socket. </br>
-              Use the readUTF() method on DataInputStream to receive a request (or a </br>
-              response) from the InputStream of the Socket.
+  description:
+    Parallel and Distributed Algorithms --- ICS 440-01 Fall 2021 </br>
+    Creating multi-thread of self-running object to wait for client </br>
+    requests to be sent up then send back the appropriate response.  </br>
+    Use the writeUTF(String s) method on DataOutputStream to send a reqeust </br>
+    (or a response) over the OutputStream of the Socket. </br>
+    Use the readUTF() method on DataInputStream to receive a request (or a </br>
+    response) from the InputStream of the Socket.
   used:
     - thing: Java
     - thing: Object Oriented Programming

@@ -9,6 +9,16 @@
     - thing: WikiText-2 word-level
     - thing: Tiny Shakespeare
 
+- name: RealNVP and Diffusion Experiments
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/RealNVP_Diffusion_Experiments
+  description: Coursework for CSCI 689 implementing normalizing flows (RealNVP) and diffusion models on a 2D toy dataset. Code generates PDFs/plots documenting each question’s results.
+  used:
+    - thing: RealNVP
+    - thing: Diffusion
+    - thing: Forward/Inverse Correctness
+
 - name: Identify Cat Picture
   url: ""
   client_code: ""
@@ -75,20 +85,20 @@
     - thing: Numpy
     - thing: Jupyter
 
-- name: Planar Data Classification
-  url: ""
-  client_code: ""
-  server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week3/Planar%20data%20classification%20with%20one%20hidden%20layer
-  description:
-    Implement a 2-class classification neural network with a single hidden layer
-    Use units with a non-linear activation function, such as tanh
-    Compute the cross entropy loss
-    Implement forward and backward propagation
-  used:
-    - thing: Python
-    - thing: Classification with one hidden layer
-    - thing: Numpy
-    - thing: Jupyter
+# - name: Planar Data Classification
+#   url: ""
+#   client_code: ""
+#   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week3/Planar%20data%20classification%20with%20one%20hidden%20layer
+#   description:
+#     Implement a 2-class classification neural network with a single hidden layer
+#     Use units with a non-linear activation function, such as tanh
+#     Compute the cross entropy loss
+#     Implement forward and backward propagation
+#   used:
+#     - thing: Python
+#     - thing: Classification with one hidden layer
+#     - thing: Numpy
+#     - thing: Jupyter
 
 - name: Face Recognition
   url: ""
@@ -116,19 +126,19 @@
     - thing: Numpy
     - thing: Jupyter
 
-- name: Emojify
-  url: ""
-  client_code: ""
-  server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week4/Neural%20Style%20Transfer
-  description:
-    Congratulations on the promotion! Let's get coffee and talk. Love you!
-    The emojifier can automatically turn this into
-    Congratulations on the promotion! 👍 Let's get coffee and talk. ☕️ Love you! ❤️
-  used:
-    - thing: Python
-    - thing: Sequence Models
-    - thing: Numpy
-    - thing: Jupyter
+# - name: Emojify
+#   url: ""
+#   client_code: ""
+#   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week4/Neural%20Style%20Transfer
+#   description:
+#     Congratulations on the promotion! Let's get coffee and talk. Love you!
+#     The emojifier can automatically turn this into
+#     Congratulations on the promotion! 👍 Let's get coffee and talk. ☕️ Love you! ❤️
+#   used:
+#     - thing: Python
+#     - thing: Sequence Models
+#     - thing: Numpy
+#     - thing: Jupyter
 
 - name: Building Deep Neural Network
   url: ""
@@ -154,32 +164,31 @@
     - thing: LSTM Network
     - thing: Numpy
     - thing: Jupyter
+# - name: Predict Profits and Prices
+#   url: ""
+#   client_code: ""
+#   server_code: https://github.com/ping58972/LinearRegression_Practice
+#   description:
+#     First, linear regression with one variable to predict profits for a food truck. </br>
+#     Second, linear regression with multiple variables to predict the prices of houses.
+#     wanting to know what a good market price would be.
+#   used:
+#     - thing: Linear Regression Algorithm
+#     - thing: Python
+#     - thing: Numpy
+#     - thing: Jupyter
 
-- name: Predict Profits and Prices
-  url: ""
-  client_code: ""
-  server_code: https://github.com/ping58972/LinearRegression_Practice
-  description:
-    First, linear regression with one variable to predict profits for a food truck. </br>
-    Second, linear regression with multiple variables to predict the prices of houses.
-    wanting to know what a good market price would be.
-  used:
-    - thing: Linear Regression Algorithm
-    - thing: Python
-    - thing: Numpy
-    - thing: Jupyter
-
-- name: Predict Student Admitted & Microchips Quality
-  url: ""
-  client_code: ""
-  server_code: https://github.com/ping58972/LogisticRegression_practice
-  description:
-    Build a logistic regression model to predict whether a student gets admitted
-    into a university. </br>
-    Second, Implement regularized logistic regression to predict whether microchips
-    from a fabrication plant passes quality assurance (QA).
-  used:
-    - thing: Logistic Regression Algorithm
-    - thing: Python
-    - thing: Numpy
-    - thing: scipy
+# - name: Predict Student Admitted & Microchips Quality
+#   url: ""
+#   client_code: ""
+#   server_code: https://github.com/ping58972/LogisticRegression_practice
+#   description:
+#     Build a logistic regression model to predict whether a student gets admitted
+#     into a university. </br>
+#     Second, Implement regularized logistic regression to predict whether microchips
+#     from a fabrication plant passes quality assurance (QA).
+#   used:
+#     - thing: Logistic Regression Algorithm
+#     - thing: Python
+#     - thing: Numpy
+#     - thing: scipy

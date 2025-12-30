@@ -3,15 +3,15 @@ name: Nalongsone Danddank
 title: Nalongsone Danddank | Software Developer
 description: Software Engineer&Developer focused on building and creating beautiful future Applications, also new technologies.
 url: https://ping58972.github.io
-baseurl: ''
-email: ping58972@gmail.com
-cover: 
-logo: 
+baseurl: ""
+email: ndanddank@umass.edu
+cover:
+logo:
 resume: https://github.com/ping58972/ping58972.github.io/blob/gh-pages/NalongsoneDanddank_Resume.pdf
 academic_record: https://github.com/ping58972/ping58972.github.io/blob/gh-pages/AcademicRecord.pdf
 social:
   - title: email
-    url: mailto:ping58972@gmail.com
+    url: mailto:ndanddank@umass.edu
   - title: twitter
     url: https://twitter.com/ping58972
   - title: instagram
@@ -25,19 +25,19 @@ social:
 markdown: kramdown
 
 exclude:
-  - 'Gemfile'
-  - 'Gemfile.lock'
-  - '*.gemspec'
-  - 'README.md'
-  - 'node_modules'
-  - 'build'
-  - 'gulpfile.js'
-  - 'package.json'
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
 
 keep_files:
-  - 'CNAME'
-  - '.git'
-  - '.gitignore'
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
 
 plugins_dir:
   - jekyll-minifier

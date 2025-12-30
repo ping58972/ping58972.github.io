@@ -1,14 +1,12 @@
 languages:
   - item: Java
   - item: Python
-  - item: C#
   - item: C/C++
   - item: JavaScript
   - item: Object-Oriented-Prog
   - item: Design Patterns
   - item: Parallel & Multi-Thread-Prog
   - item: SQL
-  - item: TypeScript
   - item: HTML/CSS/Sass
   - item: JSON
 
@@ -27,12 +25,12 @@ frameworks:
   - item: Node.js
 
 cloudComputing_bigData:
-  - item: 'AWS:'
+  - item: "AWS:"
   - item: -IAM, VPC, ELB,
   - item: -EC2, Lambda,
-  - item: -S3, EBS, EFS, 
+  - item: -S3, EBS, EFS,
   - item: -RDS, DynamoDB.
-  - item: 'GCP:'
+  - item: "GCP:"
   - item: -Compute-Egnine,
   - item: -Cloud-Storage,
   - item: -Cloud-SQL,
@@ -45,10 +43,10 @@ cloudComputing_bigData:
   - item: Map-reduce
 
 machineLearning_deepLearning:
-  - item: 'Supervised:'
-  - item: -Linear-Regression, 
+  - item: "Supervised:"
+  - item: -Linear-Regression,
   - item: -Logistic-Regression,
-  - item: 'Unsupervised:'
+  - item: "Unsupervised:"
   - item: -Neural-Networks
   - item: -CNN
   - item: PyTorch
