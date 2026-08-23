@@ -1,67 +1,3 @@
-- name: Ultimate Map for Academic Strategy & Success (UMASS)
-  url: "https://cics520umass.pythonanywhere.com"
-  client_code: "https://github.com/UMASS-CICS520-ProjectGroup9/website-service"
-  server_code: https://github.com/UMASS-CICS520-ProjectGroup9/UltimateMapForAcademicStrategyAndSuccess
-  description: Ultimate Map for Academic Strategy & Success (UMASS) is a comprehensive web platform designed to help university students thrive academically and prepare for their future careers. Students may share resources, access course information, evaluate professors, collaborate with peers, and strategize their academic journey.
-  used:
-    - thing: Python
-    - thing: Django
-    - thing: JWT Authentication
-    - thing: RESTful API
-    - thing: SQLite3
-
-- name: Find Path Travel Cities Algorithm
-  url: ""
-  client_code: ""
-  server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Algorithms%20and%20Data%20Structures-ICS%20340_01-Spring2021/publish
-  description:
-    This is an advance algorithm project from CS course - Algorithms and Data Structures.  </br>
-    Algorithm Deliverable D - finding a good Ham cycle path by local search or Genetic Algorithm.</br>
-    Algorithm Deliverable C - From the starting city use depth first search with iterative deepening to find the nearest goal city.</br>
-    Algorithm Deliverable B - find the shortest Bitonic Tour of the cities.
-  used:
-    - thing: Java
-    - thing: Local Search
-    - thing: Bitonic Tour
-    - thing: Deep First Search
-    - thing: Breath First Search
-    - thing: Ham cycle path
-
-- name: Airline Search App
-  server_code: https://github.com/ping58972/learn-spring/tree/main/flight-search
-  client_code: https://github.com/ping58972/learn-frentend/tree/main/angular-unitedairline-search-app-client
-  url: ""
-  description:
-    This Project is Full-Stack Application of Airline Search service Restful API. </br> Client side, single Web page, was implement with Angular CLI version 8.3.20. </br>
-    Server side implements by Java spring boot and connect to MySQL Database.
-  used:
-    - thing: Java
-    - thing: Spring Boot
-    - thing: Restful API
-    - thing: Angular 8
-    - thing: MySQL
-
-- name: Small Language Model
-  url: ""
-  client_code: ""
-  server_code: https://github.com/ping58972/SmallLanguageModel
-  description: This project trains a series of next-token language models, starting from a linear predictor through multilayer perceptrons, self-attention, and small transformers. Character-level experiments use Tiny Shakespeare, while word-level experiments adapt the same transformer backbone to WikiText-2 and Penn Treebank (PTB). Hyperparameter sweeps compare context length, embedding size, depth/width, attention heads, optimizers, schedulers, and batch sizes, with results logged to report_src/ alongside plots and generated text samples.
-  used:
-    - thing: Multi-layer transformer
-    - thing: Penn Treebank word-level
-    - thing: WikiText-2 word-level
-    - thing: Tiny Shakespeare
-
-- name: RealNVP and Diffusion Experiments
-  url: ""
-  client_code: ""
-  server_code: https://github.com/ping58972/RealNVP_Diffusion_Experiments
-  description: Coursework for CSCI 689 implementing normalizing flows (RealNVP) and diffusion models on a 2D toy dataset. Code generates PDFs/plots documenting each question’s results.
-  used:
-    - thing: RealNVP
-    - thing: Diffusion
-    - thing: Forward/Inverse Correctness
-
 - name: Triton Robot Symbol Search and Recognition
   url: ""
   client_code: ""
@@ -103,6 +39,39 @@
     - thing: Gazebo Harmonic
     - thing: Docker
 
+- name: Ultimate Map for Academic Strategy & Success (UMASS)
+  url: "https://cics520umass.pythonanywhere.com"
+  client_code: "https://github.com/UMASS-CICS520-ProjectGroup9/website-service"
+  server_code: https://github.com/UMASS-CICS520-ProjectGroup9/UltimateMapForAcademicStrategyAndSuccess
+  description: Ultimate Map for Academic Strategy & Success (UMASS) is a comprehensive web platform designed to help university students thrive academically and prepare for their future careers. Students may share resources, access course information, evaluate professors, collaborate with peers, and strategize their academic journey.
+  used:
+    - thing: Python
+    - thing: Django
+    - thing: JWT Authentication
+    - thing: RESTful API
+    - thing: SQLite3
+
+- name: Small Language Model
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/SmallLanguageModel
+  description: This project trains a series of next-token language models, starting from a linear predictor through multilayer perceptrons, self-attention, and small transformers. Character-level experiments use Tiny Shakespeare, while word-level experiments adapt the same transformer backbone to WikiText-2 and Penn Treebank (PTB). Hyperparameter sweeps compare context length, embedding size, depth/width, attention heads, optimizers, schedulers, and batch sizes, with results logged to report_src/ alongside plots and generated text samples.
+  used:
+    - thing: Multi-layer transformer
+    - thing: Penn Treebank word-level
+    - thing: WikiText-2 word-level
+    - thing: Tiny Shakespeare
+
+- name: RealNVP and Diffusion Experiments
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/RealNVP_Diffusion_Experiments
+  description: Coursework for CSCI 689 implementing normalizing flows (RealNVP) and diffusion models on a 2D toy dataset. Code generates PDFs/plots documenting each question’s results.
+  used:
+    - thing: RealNVP
+    - thing: Diffusion
+    - thing: Forward/Inverse Correctness
+
 - name: Reactive Spring WebFlux Microservices
   url: ""
   client_code: ""
@@ -117,6 +86,37 @@
     - thing: PostgreSQL
     - thing: R2DBC
     - thing: Docker
+
+- name: Find Path Travel Cities Algorithm
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Algorithms%20and%20Data%20Structures-ICS%20340_01-Spring2021/publish
+  description:
+    This is an advance algorithm project from CS course - Algorithms and Data Structures.  </br>
+    Algorithm Deliverable D - finding a good Ham cycle path by local search or Genetic Algorithm.</br>
+    Algorithm Deliverable C - From the starting city use depth first search with iterative deepening to find the nearest goal city.</br>
+    Algorithm Deliverable B - find the shortest Bitonic Tour of the cities.
+  used:
+    - thing: Java
+    - thing: Local Search
+    - thing: Bitonic Tour
+    - thing: Deep First Search
+    - thing: Breath First Search
+    - thing: Ham cycle path
+
+- name: Airline Search App
+  server_code: https://github.com/ping58972/learn-spring/tree/main/flight-search
+  client_code: https://github.com/ping58972/learn-frentend/tree/main/angular-unitedairline-search-app-client
+  url: ""
+  description:
+    This Project is Full-Stack Application of Airline Search service Restful API. </br> Client side, single Web page, was implement with Angular CLI version 8.3.20. </br>
+    Server side implements by Java spring boot and connect to MySQL Database.
+  used:
+    - thing: Java
+    - thing: Spring Boot
+    - thing: Restful API
+    - thing: Angular 8
+    - thing: MySQL
 
 - name: Practice - Neural Network Architectures
   url: ""
