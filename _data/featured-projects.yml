@@ -41,19 +41,109 @@
     - thing: Angular 8
     - thing: MySQL
 
-- name: Post Message Web APP
-  server_code: https://github.com/ping58972/learn-node-js/tree/main/testing-node-rest-api-mocha-chai
-  client_code: https://github.com/ping58972/learn-frentend/tree/main/react-restful-api-basic-socket-io
-  description:
-    This project is the single page that build by React and fetch all data from web server
-    using MongoDB to save data this server API that has been deployed to Heroru and testing with Mocha&Chai
+- name: Small Language Model
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/SmallLanguageModel
+  description: This project trains a series of next-token language models, starting from a linear predictor through multilayer perceptrons, self-attention, and small transformers. Character-level experiments use Tiny Shakespeare, while word-level experiments adapt the same transformer backbone to WikiText-2 and Penn Treebank (PTB). Hyperparameter sweeps compare context length, embedding size, depth/width, attention heads, optimizers, schedulers, and batch sizes, with results logged to report_src/ alongside plots and generated text samples.
   used:
-    - thing: Node.js
-    - thing: React.js
-    - thing: Express.js
-    - thing: Socket.io
+    - thing: Multi-layer transformer
+    - thing: Penn Treebank word-level
+    - thing: WikiText-2 word-level
+    - thing: Tiny Shakespeare
+
+- name: RealNVP and Diffusion Experiments
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/RealNVP_Diffusion_Experiments
+  description: Coursework for CSCI 689 implementing normalizing flows (RealNVP) and diffusion models on a 2D toy dataset. Code generates PDFs/plots documenting each question’s results.
+  used:
+    - thing: RealNVP
+    - thing: Diffusion
+    - thing: Forward/Inverse Correctness
+
+- name: Triton Robot Symbol Search and Recognition
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/robotic603_finalproject
+  description: Team project for UMass COMPSCI 603 Robotics. Built an autonomous symbol-search system for the Triton mobile robot that fuses a live camera stream and LiDAR with trained CNN/MobileNetV2 classifiers to find and drive toward printed geometric symbols. Migrated the original ROS1 Noetic stack to ROS2 Jazzy on Ubuntu 24.04 while preserving the trained PyTorch checkpoints, and validated the pipeline with unit tests, lint checks, and headless end-to-end simulation in Gazebo Harmonic.
+  used:
+    - thing: ROS1 Noetic
+    - thing: ROS2 Jazzy
+    - thing: Python
+    - thing: PyTorch
+    - thing: Gazebo Harmonic
+    - thing: Docker
+    - thing: LiDAR
+
+- name: Robot Localization Using Particle Filters
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/Robot-Localization-Using-Particle-Filters-ROS2
+  description: End-to-end Monte Carlo Localization for a TurtleBot3 with a 2D LiDAR, porting a COMPSCI 603 ROS1 implementation to ROS2 Jazzy. Implements a vectorized probabilistic odometry motion model and a likelihood-field sensor model built from an occupancy map, then runs a full particle-filter cycle of predict, correct, estimate, and resample. Packaged as a reproducible Ubuntu 24.04 / Gazebo Harmonic Docker container that streams Gazebo and RViz to macOS through a browser-based noVNC desktop.
+  used:
+    - thing: ROS2 Jazzy
+    - thing: Python
+    - thing: Particle Filter
+    - thing: Gazebo Harmonic
+    - thing: Docker
+    - thing: LiDAR
+
+- name: Robot Wall Following by Reinforcement Learning
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/Robot-Wall-Following-by-Reinforcement-Learning
+  description: Trains simulated mobile robots to follow a right-hand wall using tabular Q-learning and SARSA, reducing a noisy 360-degree LiDAR stream to a compact discrete state and learning a policy over repeated episodes. Shows the full engineering progression from an original ROS1 Stingray implementation to a reproducible, Dockerized ROS2 Jazzy and Gazebo Harmonic redesign for macOS, including 500-episode reward histories and learning-curve analysis for both algorithms.
+  used:
+    - thing: Q-Learning
+    - thing: SARSA
+    - thing: ROS1
+    - thing: ROS2 Jazzy
+    - thing: Python
+    - thing: Gazebo Harmonic
+    - thing: Docker
+
+- name: Reactive Spring WebFlux Microservices
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/learn-Reactive-Spring-WebFlux-Microservices
+  description: A learning progression through non-blocking, reactive backend development in Java, from raw Mono/Flux primitives in Project Reactor up to a three-service microservice system that orchestrates a purchase order across two independent databases over WebClient. Covers backpressure, hot vs. cold publishers, scheduler selection, retry/timeout policy, and bridging blocking JDBC code into a non-blocking pipeline, tested with StepVerifier, virtual-time tests, and WebTestClient slice tests.
+  used:
+    - thing: Java
+    - thing: Spring Boot
+    - thing: Spring WebFlux
+    - thing: Project Reactor
     - thing: MongoDB
-    - thing: Mocha
+    - thing: PostgreSQL
+    - thing: R2DBC
+    - thing: Docker
+
+- name: Practice - Neural Network Architectures
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/Practice-NeuralNetwork-Architectures
+  description: An end-to-end TensorFlow/Keras comparison of eight neural network architectures on grayscale CIFAR-10, spanning single-layer and deep perceptrons, CNNs, dropout regularization, a VGG-style stack, and a residual network (ResNet). Each architecture is trained under the same data pipeline across SGD, SGD with momentum, and Adam optimizers to study how architectural choices change learning under identical conditions.
+  used:
+    - thing: TensorFlow
+    - thing: Keras
+    - thing: Python
+    - thing: CNN
+    - thing: ResNet
+    - thing: CIFAR-10
+
+# - name: Post Message Web APP
+#   server_code: https://github.com/ping58972/learn-node-js/tree/main/testing-node-rest-api-mocha-chai
+#   client_code: https://github.com/ping58972/learn-frentend/tree/main/react-restful-api-basic-socket-io
+#   description:
+#     This project is the single page that build by React and fetch all data from web server
+#     using MongoDB to save data this server API that has been deployed to Heroru and testing with Mocha&Chai
+#   used:
+#     - thing: Node.js
+#     - thing: React.js
+#     - thing: Express.js
+#     - thing: Socket.io
+#     - thing: MongoDB
+#     - thing: Mocha
 
 # - name: Distributed and Cloud Computing Course's Assignment
 #   url: ""
