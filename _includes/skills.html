@@ -4,6 +4,14 @@
     <!-- <p>I’ve picked up quite a few skills during the course of my three co-ops, and aim to improve these skills everyday. Here are a few of the technologies that I have experience with:</p> -->
     <div class="skillz">
       <div class="skillz__category">
+        <div class="skillz__category__label">AI Tools&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <ul>
+          {% for ai in site.data.skills.ai_tools %}
+          <li class="skillz__category__item">{{ai.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="skillz__category">
         <div class="skillz__category__label">Languages&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         <ul>
           {% for language in site.data.skills.languages %}
@@ -11,7 +19,7 @@
           {% endfor %}
         </ul>
       </div>
-            <div class="skillz__category">
+      <div class="skillz__category">
         <div class="skillz__category__label">Algorithm&nbsp;&nbsp;&nbsp;&nbsp;</div>
         <div class="skillz__category__label">Data-structure&nbsp;&nbsp;&nbsp;&nbsp;</div>
         <ul>
@@ -28,7 +36,7 @@
           {% endfor %}
         </ul>
       </div>
-            <div class="skillz__category">
+      <div class="skillz__category">
         <div class="skillz__category__label">Cloud Computing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
         <div class="skillz__category__label">Big Data</div>
         <ul>
@@ -37,9 +45,10 @@
           {% endfor %}
         </ul>
       </div>
-            <div class="skillz__category">
+      <div class="skillz__category">
         <div class="skillz__category__label">Machine Learning&nbsp;&nbsp;&nbsp;&nbsp;</div>
-        <div class="skillz__category__label">Deep Learning&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="skillz__category__label">Deep Learning&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
         <ul>
           {% for thing in site.data.skills.machineLearning_deepLearning %}
           <li class="skillz__category__item">{{thing.item}}</li>

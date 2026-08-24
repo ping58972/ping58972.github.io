@@ -83,3 +83,16 @@ dataStruc_algorithm:
   - item: Bellman-Ford's-Alg
   - item: Dijkstra's-Alg
   - item: All-Pairs-Shortest-Path
+
+ai_tools:
+  - item: CodeX
+  - item: Claude Code
+  - item: DeepSeek
+  - item: Kimi
+  - item: OpenClaw
+  - item: Harness
+  - item: N8N
+  - item: LangChain
+  - item: LangGraph
+  - item: LangFlow
+  - item: ComfyUI
