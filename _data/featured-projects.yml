@@ -1,3 +1,65 @@
+- name: Wafer Defect Analyzer
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/wafer-defect-analyzer
+  description: A C++20 command-line tool and reusable library that analyzes synthetic semiconductor wafer maps. It parses a validated CSV grid of pass, defect, and outside-wafer dies, calculates yield, and groups edge-adjacent defects into clusters with sizes and bounding boxes using breadth-first search in O(R × C) time and memory. Built with CMake as separate library and executable targets with warnings as errors, and tested with CTest, including AddressSanitizer and UndefinedBehaviorSanitizer runs.
+  used:
+    - thing: C++20
+    - thing: CMake
+    - thing: CTest
+    - thing: Breadth-First Search
+    - thing: Graph Connectivity
+    - thing: RAII
+    - thing: Sanitizers (ASan/UBSan)
+
+- name: Wafer Equipment Simulator
+  url: ""
+  client_code: https://github.com/ping58972/wafer-equipment-simulator/tree/main/src/Equipment.Operator
+  server_code: https://github.com/ping58972/wafer-equipment-simulator
+  description: A C#/.NET 10 simulation of a wafer batch moving through virtual processing chambers. An ASP.NET Core minimal API schedules wafers with a bounded Channel producer-consumer queue and min(W, C) worker tasks, guards each wafer's state machine (Idle, Loaded, Processing, Completed or Faulted), supports sensor-timeout fault injection, cancellation, and returns HTTP 409 for competing batches. A Windows Forms operator console calls the API asynchronously and shows chamber assignment, state history, and alarms for each wafer.
+  used:
+    - thing: C#
+    - thing: .NET 10
+    - thing: ASP.NET Core
+    - thing: Windows Forms
+    - thing: RESTful API
+    - thing: Async/Await
+    - thing: Producer-Consumer
+    - thing: State Machine
+    - thing: Python
+
+- name: Robot Sensor Recorder
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/robot-sensor-recorder
+  description: A C++20 device-side recording prototype for robotics data collection. Four producer threads simulate video, audio, IMU, and device-status sources and feed a bounded producer-consumer queue that one storage thread writes into segmented binary logs with sequence numbers, nanosecond timestamps, per-record CRC32 checksums, fsync, and rename-based segment commits. Includes Linux UDP socket and termios serial input adapters, a recovery tool for partial segments, fault-injection tests, and a Dockerized Ubuntu/GCC build, measured at about 20 MiB/s on synthetic data.
+  used:
+    - thing: C++20
+    - thing: Linux
+    - thing: Multithreading
+    - thing: CMake
+    - thing: UDP Sockets
+    - thing: Serial (termios)
+    - thing: CRC32
+    - thing: Docker
+    - thing: Python
+
+- name: Shared-Memory Sensor Bus
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/shared-memory-sensor-bus
+  description: A C++20 publish-subscribe middleware prototype for local robotics processes. One publisher and independent subscribers exchange topic-tagged payloads through a bounded, file-backed shared-memory ring buffer (mmap MAP_SHARED) with zero-copy producer and consumer callbacks, flock-based read leases, per-subscriber cursors, topic filtering, sequence-loss detection, and checksum validation. Validated with process-crash and multi-process integration tests on Dockerized Ubuntu and macOS, and benchmarked at about 168,000 messages per second for 4 KB payloads.
+  used:
+    - thing: C++20
+    - thing: Shared Memory (mmap)
+    - thing: IPC
+    - thing: Publish-Subscribe
+    - thing: Zero-Copy
+    - thing: Linux
+    - thing: CMake
+    - thing: Docker
+    - thing: Python
+
 - name: Triton Robot Symbol Search and Recognition
   url: ""
   client_code: ""
